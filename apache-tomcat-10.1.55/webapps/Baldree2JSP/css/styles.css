@@ -1,0 +1,80 @@
+/*
+    Name: Alexander Baldree
+    Assignment: Module 2 JSP Scriptlets Assignment
+
+    Description:
+    This external CSS file controls the design of the JSP page.
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.page-header {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #d9e2ec;
+    text-align: center;
+}
+
+.page-header h1 {
+    margin-top: 0;
+    color: #1f3b57;
+}
+
+.info-card {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #d9e2ec;
+}
+
+.info-card h2 {
+    color: #1f3b57;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1f3b57;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #d9e2ec;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fbff;
+}
+
+.category-row td {
+    background-color: #dcecff;
+    color: #1f3b57;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #555555;
+}

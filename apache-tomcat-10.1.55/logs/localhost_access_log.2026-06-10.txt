@@ -1,0 +1,2 @@
+127.0.0.1 - - [10/Jun/2026:15:32:21 -0500] "GET /Baldree2JSP/index.jsp HTTP/1.1" 200 4008
+127.0.0.1 - - [10/Jun/2026:15:32:21 -0500] "GET /Baldree2JSP/css/styles.css HTTP/1.1" 200 1249

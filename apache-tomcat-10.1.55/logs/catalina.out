@@ -1,0 +1,454 @@
+05-Jun-2026 20:05:50.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.55
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2026 13:33:02 UTC
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.55.0
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.5.1
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexbaldree/Documents/apache-tomcat-10.1.55
+05-Jun-2026 20:05:50.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexbaldree/Documents/apache-tomcat-10.1.55
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexbaldree/Documents/apache-tomcat-10.1.55/conf/logging.properties
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexbaldree/Documents/apache-tomcat-10.1.55
+05-Jun-2026 20:05:50.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexbaldree/Documents/apache-tomcat-10.1.55
+05-Jun-2026 20:05:50.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexbaldree/Documents/apache-tomcat-10.1.55/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/alexbaldree/Documents/apache-tomcat-10.1.55/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+05-Jun-2026 20:05:50.760 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alexbaldree/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Jun-2026 20:05:50.867 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2026 20:05:50.884 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [216] milliseconds
+05-Jun-2026 20:05:50.899 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jun-2026 20:05:50.899 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.55]
+05-Jun-2026 20:05:50.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/docs]
+05-Jun-2026 20:05:51.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/docs] has finished in [105] ms
+05-Jun-2026 20:05:51.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/manager]
+05-Jun-2026 20:05:51.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/manager] has finished in [12] ms
+05-Jun-2026 20:05:51.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/examples]
+05-Jun-2026 20:05:51.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/examples] has finished in [77] ms
+05-Jun-2026 20:05:51.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/ROOT]
+05-Jun-2026 20:05:51.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/ROOT] has finished in [5] ms
+05-Jun-2026 20:05:51.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/host-manager]
+05-Jun-2026 20:05:51.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/host-manager] has finished in [6] ms
+05-Jun-2026 20:05:51.112 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2026 20:05:51.116 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [231] milliseconds
+05-Jun-2026 20:14:31.525 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/baldreejsp]
+05-Jun-2026 20:14:31.557 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/baldreejsp] has finished in [32] ms
+05-Jun-2026 20:19:56.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.55
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2026 13:33:02 UTC
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.55.0
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.5.1
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexbaldree/Documents/apache-tomcat-10.1.55
+05-Jun-2026 20:19:56.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexbaldree/Documents/apache-tomcat-10.1.55
+05-Jun-2026 20:19:56.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexbaldree/Documents/apache-tomcat-10.1.55/conf/logging.properties
+05-Jun-2026 20:19:56.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jun-2026 20:19:56.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jun-2026 20:19:56.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexbaldree/Documents/apache-tomcat-10.1.55
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexbaldree/Documents/apache-tomcat-10.1.55
+05-Jun-2026 20:19:56.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexbaldree/Documents/apache-tomcat-10.1.55/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/alexbaldree/Documents/apache-tomcat-10.1.55/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+05-Jun-2026 20:19:56.170 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alexbaldree/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Jun-2026 20:19:56.266 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2026 20:19:56.275 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:522)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:335)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:297)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1434)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1447)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:932)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 11 more
+05-Jun-2026 20:19:56.275 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [174] milliseconds
+05-Jun-2026 20:19:56.286 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jun-2026 20:19:56.286 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.55]
+05-Jun-2026 20:19:56.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/docs]
+05-Jun-2026 20:19:56.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/docs] has finished in [83] ms
+05-Jun-2026 20:19:56.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/baldreejsp]
+05-Jun-2026 20:19:56.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/baldreejsp] has finished in [9] ms
+05-Jun-2026 20:19:56.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/manager]
+05-Jun-2026 20:19:56.393 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/manager] has finished in [11] ms
+05-Jun-2026 20:19:56.393 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/examples]
+05-Jun-2026 20:19:56.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/examples] has finished in [77] ms
+05-Jun-2026 20:19:56.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/ROOT]
+05-Jun-2026 20:19:56.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/ROOT] has finished in [6] ms
+05-Jun-2026 20:19:56.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/host-manager]
+05-Jun-2026 20:19:56.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/host-manager] has finished in [7] ms
+05-Jun-2026 20:19:56.485 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [209] milliseconds
+05-Jun-2026 20:19:56.488 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:522)
+		at java.base/sun.nio.ch.Net.bind(Net.java:511)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:641)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:531)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:848)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:796)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+05-Jun-2026 20:19:56.489 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2026 20:19:56.489 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jun-2026 20:19:56.496 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jun-2026 20:19:56.496 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:17:25.903 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/untitled folder]
+10-Jun-2026 15:17:25.937 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/untitled folder] has finished in [36] ms
+10-Jun-2026 15:17:36.454 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/untitled folder]
+10-Jun-2026 15:17:36.487 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/Baldree_mod_2_csd430]
+10-Jun-2026 15:17:36.497 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/Documents/apache-tomcat-10.1.55/webapps/Baldree_mod_2_csd430] has finished in [10] ms
+10-Jun-2026 15:26:26.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.55
+10-Jun-2026 15:26:26.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2026 13:33:02 UTC
+10-Jun-2026 15:26:26.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.55.0
+10-Jun-2026 15:26:26.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jun-2026 15:26:26.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.5.1
+10-Jun-2026 15:26:26.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+10-Jun-2026 15:26:26.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home
+10-Jun-2026 15:26:26.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS
+10-Jun-2026 15:26:26.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+10-Jun-2026 15:26:26.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:26:26.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/conf/logging.properties
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2026 15:26:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2026 15:26:26.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2026 15:26:26.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:26:26.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:26:26.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+10-Jun-2026 15:26:26.509 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alexbaldree/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jun-2026 15:26:26.729 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:26:26.744 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:522)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:335)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:297)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1434)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1447)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:932)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 11 more
+10-Jun-2026 15:26:26.744 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [361] milliseconds
+10-Jun-2026 15:26:26.764 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2026 15:26:26.765 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.55]
+10-Jun-2026 15:26:26.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/docs]
+10-Jun-2026 15:26:26.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/docs] has finished in [151] ms
+10-Jun-2026 15:26:26.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/baldreejsp]
+10-Jun-2026 15:26:26.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/baldreejsp] has finished in [15] ms
+10-Jun-2026 15:26:26.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/manager]
+10-Jun-2026 15:26:26.956 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/manager] has finished in [19] ms
+10-Jun-2026 15:26:26.956 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/examples]
+10-Jun-2026 15:26:27.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/examples] has finished in [124] ms
+10-Jun-2026 15:26:27.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/ROOT]
+10-Jun-2026 15:26:27.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/ROOT] has finished in [9] ms
+10-Jun-2026 15:26:27.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree2JSP]
+10-Jun-2026 15:26:27.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree2JSP] has finished in [8] ms
+10-Jun-2026 15:26:27.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/host-manager]
+10-Jun-2026 15:26:27.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/host-manager] has finished in [9] ms
+10-Jun-2026 15:26:27.109 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [363] milliseconds
+10-Jun-2026 15:26:27.111 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:522)
+		at java.base/sun.nio.ch.Net.bind(Net.java:511)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:641)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:531)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:848)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:796)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Jun-2026 15:26:27.112 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:26:27.112 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2026 15:26:27.122 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:26:27.123 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:27:47.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.55
+10-Jun-2026 15:27:47.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2026 13:33:02 UTC
+10-Jun-2026 15:27:47.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.55.0
+10-Jun-2026 15:27:47.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jun-2026 15:27:47.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.5.1
+10-Jun-2026 15:27:47.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+10-Jun-2026 15:27:47.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home
+10-Jun-2026 15:27:47.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS
+10-Jun-2026 15:27:47.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+10-Jun-2026 15:27:47.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:27:47.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/conf/logging.properties
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2026 15:27:47.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2026 15:27:47.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:27:47.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:27:47.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+10-Jun-2026 15:27:47.298 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alexbaldree/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jun-2026 15:27:47.454 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:27:47.467 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:522)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:335)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:297)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1434)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1447)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:932)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 11 more
+10-Jun-2026 15:27:47.467 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [286] milliseconds
+10-Jun-2026 15:27:47.485 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2026 15:27:47.485 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.55]
+10-Jun-2026 15:27:47.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/docs]
+10-Jun-2026 15:27:47.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/docs] has finished in [140] ms
+10-Jun-2026 15:27:47.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/baldreejsp]
+10-Jun-2026 15:27:47.646 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/baldreejsp] has finished in [14] ms
+10-Jun-2026 15:27:47.646 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/manager]
+10-Jun-2026 15:27:47.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/manager] has finished in [19] ms
+10-Jun-2026 15:27:47.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/examples]
+10-Jun-2026 15:27:47.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/examples] has finished in [119] ms
+10-Jun-2026 15:27:47.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/ROOT]
+10-Jun-2026 15:27:47.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/ROOT] has finished in [8] ms
+10-Jun-2026 15:27:47.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree2JSP]
+10-Jun-2026 15:27:47.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree2JSP] has finished in [8] ms
+10-Jun-2026 15:27:47.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/host-manager]
+10-Jun-2026 15:27:47.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/host-manager] has finished in [10] ms
+10-Jun-2026 15:27:47.813 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [345] milliseconds
+10-Jun-2026 15:27:47.816 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:522)
+		at java.base/sun.nio.ch.Net.bind(Net.java:511)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:641)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:531)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:848)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:796)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Jun-2026 15:27:47.816 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:27:47.816 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2026 15:27:47.826 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:27:47.826 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:32:10.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.55
+10-Jun-2026 15:32:10.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2026 13:33:02 UTC
+10-Jun-2026 15:32:10.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.55.0
+10-Jun-2026 15:32:10.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jun-2026 15:32:10.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.5.1
+10-Jun-2026 15:32:10.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+10-Jun-2026 15:32:10.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home
+10-Jun-2026 15:32:10.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS
+10-Jun-2026 15:32:10.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+10-Jun-2026 15:32:10.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:32:10.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/conf/logging.properties
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2026 15:32:10.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:32:10.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:32:10.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+10-Jun-2026 15:32:10.071 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alexbaldree/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jun-2026 15:32:10.232 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:32:10.248 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [293] milliseconds
+10-Jun-2026 15:32:10.267 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2026 15:32:10.267 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.55]
+10-Jun-2026 15:32:10.271 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/docs]
+10-Jun-2026 15:32:10.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/docs] has finished in [151] ms
+10-Jun-2026 15:32:10.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/baldreejsp]
+10-Jun-2026 15:32:10.439 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/baldreejsp] has finished in [15] ms
+10-Jun-2026 15:32:10.439 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/manager]
+10-Jun-2026 15:32:10.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/manager] has finished in [20] ms
+10-Jun-2026 15:32:10.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/examples]
+10-Jun-2026 15:32:10.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/examples] has finished in [126] ms
+10-Jun-2026 15:32:10.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/ROOT]
+10-Jun-2026 15:32:10.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/ROOT] has finished in [9] ms
+10-Jun-2026 15:32:10.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree2JSP]
+10-Jun-2026 15:32:10.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree2JSP] has finished in [8] ms
+10-Jun-2026 15:32:10.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/host-manager]
+10-Jun-2026 15:32:10.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/host-manager] has finished in [10] ms
+10-Jun-2026 15:32:10.614 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:32:10.621 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [371] milliseconds
+10-Jun-2026 15:33:32.202 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jun-2026 15:33:32.207 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:33:33.212 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2026 15:33:33.235 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:33:33.841 WARNING [main] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+10-Jun-2026 15:33:33.847 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:45:43.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.55
+10-Jun-2026 15:45:43.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2026 13:33:02 UTC
+10-Jun-2026 15:45:43.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.55.0
+10-Jun-2026 15:45:43.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jun-2026 15:45:43.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.5.1
+10-Jun-2026 15:45:43.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+10-Jun-2026 15:45:43.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home
+10-Jun-2026 15:45:43.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS
+10-Jun-2026 15:45:43.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+10-Jun-2026 15:45:43.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:45:43.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:45:43.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/conf/logging.properties
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55
+10-Jun-2026 15:45:43.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/temp
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+10-Jun-2026 15:45:43.347 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/alexbaldree/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jun-2026 15:45:43.502 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:45:43.517 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [287] milliseconds
+10-Jun-2026 15:45:43.534 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2026 15:45:43.534 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.55]
+10-Jun-2026 15:45:43.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/docs]
+10-Jun-2026 15:45:43.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/docs] has finished in [139] ms
+10-Jun-2026 15:45:43.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/baldreejsp]
+10-Jun-2026 15:45:43.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/baldreejsp] has finished in [14] ms
+10-Jun-2026 15:45:43.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/manager]
+10-Jun-2026 15:45:43.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/manager] has finished in [18] ms
+10-Jun-2026 15:45:43.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/examples]
+10-Jun-2026 15:45:43.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/examples] has finished in [123] ms
+10-Jun-2026 15:45:43.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/ROOT]
+10-Jun-2026 15:45:43.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/ROOT] has finished in [9] ms
+10-Jun-2026 15:45:43.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree2JSP]
+10-Jun-2026 15:45:43.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree2JSP] has finished in [8] ms
+10-Jun-2026 15:45:43.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/host-manager]
+10-Jun-2026 15:45:43.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/host-manager] has finished in [10] ms
+10-Jun-2026 15:45:43.864 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Jun-2026 15:45:43.870 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [351] milliseconds
