@@ -452,3 +452,5 @@ WARNING: Restricted methods will be blocked in a future release unless native ac
 10-Jun-2026 15:45:43.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/host-manager] has finished in [10] ms
 10-Jun-2026 15:45:43.864 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 10-Jun-2026 15:45:43.870 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [351] milliseconds
+17-Jun-2026 22:44:25.304 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree3JSP]
+17-Jun-2026 22:44:25.338 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/alexbaldree/csd/CSD430/apache-tomcat-10.1.55/webapps/Baldree3JSP] has finished in [36] ms
