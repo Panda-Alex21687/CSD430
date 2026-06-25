@@ -1,0 +1,12 @@
+127.0.0.1 - - [24/Jun/2026:19:36:17 -0500] "GET /Baldree4JSP/travelRecords.jsp HTTP/1.1" 200 3457
+127.0.0.1 - - [24/Jun/2026:19:36:17 -0500] "GET /Baldree4JSP/style.css HTTP/1.1" 200 924
+127.0.0.1 - - [24/Jun/2026:19:36:17 -0500] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [24/Jun/2026:21:36:35 -0500] "GET /Baldree4JSP/travelRecords.jsp HTTP/1.1" 200 3457
+127.0.0.1 - - [24/Jun/2026:21:36:35 -0500] "GET /Baldree4JSP/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jun/2026:21:36:36 -0500] "GET /Baldree4JSP/travelRecords.jsp HTTP/1.1" 200 3457
+127.0.0.1 - - [24/Jun/2026:21:38:11 -0500] "GET /Baldree4JSP/travelRecords.jsp HTTP/1.1" 200 3457
+127.0.0.1 - - [24/Jun/2026:21:38:37 -0500] "GET /Baldree4JSP/travelRecords.jsp HTTP/1.1" 200 3457
+127.0.0.1 - - [24/Jun/2026:21:38:38 -0500] "GET /Baldree4JSP/travelRecords.jsp HTTP/1.1" 200 3457
+127.0.0.1 - - [24/Jun/2026:22:03:08 -0500] "GET /Baldree4JSP/travelRecords.jsp HTTP/1.1" 200 3457
+127.0.0.1 - - [24/Jun/2026:22:03:08 -0500] "GET /Baldree4JSP/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Jun/2026:22:07:14 -0500] "GET /Baldree4JSP/travelRecords.jsp HTTP/1.1" 200 3465
