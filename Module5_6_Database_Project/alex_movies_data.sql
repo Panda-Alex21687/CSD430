@@ -1,4 +1,4 @@
--- Name: Alex Baldree
+-- Name: Alexander Baldree
 -- Date: June 24, 2026
 -- Assignment: CSD430 Module 5/6 Database Project
 -- Purpose: Create the CSD430 database, create the movies table, and insert movie records.

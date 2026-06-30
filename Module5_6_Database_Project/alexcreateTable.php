@@ -1,6 +1,6 @@
 <?php
 /*
-Name: Alex Baldree
+Name: Alexander Baldree
 Date: June 24, 2026
 Assignment: CSD430 Module 5/6 Database Project
 Purpose: Creates the alex_movies_data table inside the CSD430 database.

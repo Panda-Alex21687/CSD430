@@ -1,5 +1,5 @@
 <%--
-Name: Alex Baldree
+Name: Alexander Baldree
 Date: June 24, 2026
 Assignment: CSD430 Module 5/6 Database Project
 Purpose: Provides links to the database project deliverables.
