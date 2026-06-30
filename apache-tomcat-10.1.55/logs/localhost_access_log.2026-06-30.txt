@@ -1,0 +1,2 @@
+127.0.0.1 - - [30/Jun/2026:14:04:31 -0500] "GET /Module5_6_Database_Project/index.jsp HTTP/1.1" 404 740
+127.0.0.1 - - [30/Jun/2026:14:04:56 -0500] "GET /Module5_6_Database_Project/alexindex.jsp HTTP/1.1" 200 608
