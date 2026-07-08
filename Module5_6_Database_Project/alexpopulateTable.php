@@ -1,9 +1,9 @@
 <?php
 /*
-Name: Alexander Baldree
-Date: June 24, 2026
-Assignment: CSD430 Module 5/6 Database Project
-Purpose: Populates the alex_movies_data table with 10 movie records.
+Alexander Baldree
+June 24, 2026
+CSD430 Module 5/6 Database Project
+Populates the alex_movies_data table with 10 movie records.
 */
 
 $serverName = "localhost";

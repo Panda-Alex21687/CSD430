@@ -1,9 +1,9 @@
 <?php
 /*
-Name: Alexander Baldree
-Date: June 24, 2026
-Assignment: CSD430 Module 5/6 Database Project
-Purpose: Drops the alex_movies_data table from the CSD430 database.
+Alexander Baldree
+June 24, 2026
+CSD430 Module 5/6 Database Project
+Drops the alex_movies_data table from the CSD430 database.
 */
 
 $serverName = "localhost";
