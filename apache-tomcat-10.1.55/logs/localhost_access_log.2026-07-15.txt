@@ -1,0 +1,3 @@
+127.0.0.1 - - [15/Jul/2026:16:13:08 -0500] "GET /Module5_6_Database_Project/index.jsp HTTP/1.1" 200 5081
+127.0.0.1 - - [15/Jul/2026:16:13:08 -0500] "GET /Module5_6_Database_Project/css/style.css HTTP/1.1" 404 800
+127.0.0.1 - - [15/Jul/2026:16:13:08 -0500] "GET /Module5_6_Database_Project/css/style.css HTTP/1.1" 404 800
