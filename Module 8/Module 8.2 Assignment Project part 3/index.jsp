@@ -1,108 +1,181 @@
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.DriverManager" %>
+<%@ page import="java.sql.PreparedStatement" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="java.sql.Statement" %>
+<%@ page import="java.util.ArrayList" %>
 
 <%--
     Alexander Baldree
-    July 17, 2026
-    Module 8 Project Part 3
-    Displays a dropdown of movie record IDs so the user can select a record to update.
+    July 8, 2026
+    Module 7 Project Part 2
+    Allows a user to add a movie record and displays all movie records from the database.
 --%>
 
 <%
+    request.setCharacterEncoding("UTF-8");
+
     String databaseUrl = "jdbc:mysql://localhost:3306/CSD430?useSSL=false";
     String databaseUser = "student1";
     String databasePassword = "pass";
 
-    Connection connection = null;
-    Statement statement = null;
-    ResultSet resultSet = null;
     String message = "";
+    ArrayList<String[]> movieRecords = new ArrayList<String[]>();
+
+    try {
+        Class.forName("com.mysql.jdbc.Driver");
+
+        Connection connection = DriverManager.getConnection(databaseUrl, databaseUser, databasePassword);
+
+        // This section adds a new movie record when the form is submitted.
+        if ("POST".equalsIgnoreCase(request.getMethod())) {
+            String title = request.getParameter("title");
+            String director = request.getParameter("director");
+            String releaseYearText = request.getParameter("release_year");
+            String genre = request.getParameter("genre");
+            String rating = request.getParameter("rating");
+
+            if (title != null && director != null && releaseYearText != null && genre != null && rating != null
+                    && !title.trim().isEmpty()
+                    && !director.trim().isEmpty()
+                    && !releaseYearText.trim().isEmpty()
+                    && !genre.trim().isEmpty()
+                    && !rating.trim().isEmpty()) {
+
+                int releaseYear = Integer.parseInt(releaseYearText);
+
+                String insertSql = "INSERT INTO alexmoviesdata "
+                        + "(title, director, release_year, genre, rating) "
+                        + "VALUES (?, ?, ?, ?, ?)";
+
+                PreparedStatement insertStatement = connection.prepareStatement(insertSql);
+                insertStatement.setString(1, title);
+                insertStatement.setString(2, director);
+                insertStatement.setInt(3, releaseYear);
+                insertStatement.setString(4, genre);
+                insertStatement.setString(5, rating);
+                insertStatement.executeUpdate();
+                insertStatement.close();
+
+                message = "New movie record added successfully.";
+            } else {
+                message = "Please complete every field before submitting the form.";
+            }
+        }
+
+        // This section collects all movie records so they can be displayed in the HTML table.
+        String selectSql = "SELECT movie_id, title, director, release_year, genre, rating "
+                + "FROM alexmoviesdata ORDER BY movie_id";
+
+        Statement selectStatement = connection.createStatement();
+        ResultSet resultSet = selectStatement.executeQuery(selectSql);
+
+        while (resultSet.next()) {
+            String[] row = new String[6];
+
+            row[0] = String.valueOf(resultSet.getInt("movie_id"));
+            row[1] = resultSet.getString("title");
+            row[2] = resultSet.getString("director");
+            row[3] = String.valueOf(resultSet.getInt("release_year"));
+            row[4] = resultSet.getString("genre");
+            row[5] = resultSet.getString("rating");
+
+            movieRecords.add(row);
+        }
+
+        resultSet.close();
+        selectStatement.close();
+        connection.close();
+
+    } catch (Exception error) {
+        message = "Database error: " + error.getMessage();
+    }
 %>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Update Movie Record</title>
-    <link rel="stylesheet" href="alexstyle.css">
+    <title>Alex Baldree Movie Database</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>Alex Baldree Movie Database</h1>
+    <h1>Alex Baldree Movie Database</h1>
 
-        <p>
-            This page is part of my Module 8 database project. It allows the user to select
-            an existing movie record from the database and update that record.
-        </p>
+    <p>
+        This page is part of my Module 7 database project. It allows a user to add a new
+        movie record to the existing CSD430 database and then displays all current records
+        from the movie table.
+    </p>
 
-        <h2>Select a Movie Record to Update</h2>
+    <h2>Add a New Movie Record</h2>
 
-        <p>
-            Choose a movie ID from the dropdown menu. The dropdown values come from the key
-            values currently stored in the database.
-        </p>
+    <p>
+        Complete each field below. The movie ID is not entered by the user because it is
+        created automatically by the database when the form is submitted.
+    </p>
 
-        <form action="editMovie.jsp" method="post">
-            <label for="movie_id">Movie ID:</label>
+    <% if (message != null && !message.isEmpty()) { %>
+        <p><strong><%= message %></strong></p>
+    <% } %>
 
-            <select name="movie_id" id="movie_id" required>
-                <option value="">-- Select a Movie ID --</option>
+    <form method="post" action="index.jsp">
+        <label for="title">Movie Title:</label>
+        <input type="text" id="title" name="title" required>
+        <br><br>
 
-                <%
-                    try {
-                        Class.forName("com.mysql.jdbc.Driver");
+        <label for="director">Director:</label>
+        <input type="text" id="director" name="director" required>
+        <br><br>
 
-                        connection = DriverManager.getConnection(databaseUrl, databaseUser, databasePassword);
-                        statement = connection.createStatement();
+        <label for="release_year">Release Year:</label>
+        <input type="number" id="release_year" name="release_year" required>
+        <br><br>
 
-                        String selectSql = "SELECT movie_id, title FROM alexmoviesdata ORDER BY movie_id";
-                        resultSet = statement.executeQuery(selectSql);
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" required>
+        <br><br>
 
-                        while (resultSet.next()) {
-                            int movieId = resultSet.getInt("movie_id");
-                            String title = resultSet.getString("title");
-                %>
-                            <option value="<%= movieId %>">
-                                <%= movieId %> - <%= title %>
-                            </option>
-                <%
-                        }
+        <label for="rating">Rating:</label>
+        <input type="text" id="rating" name="rating" required>
+        <br><br>
 
-                    } catch (Exception error) {
-                        message = "Database error: " + error.getMessage();
+        <input type="submit" value="Add Movie Record">
+    </form>
 
-                    } finally {
-                        if (resultSet != null) {
-                            resultSet.close();
-                        }
+    <h2>Current Movie Records</h2>
 
-                        if (statement != null) {
-                            statement.close();
-                        }
+    <p>
+        The table below displays all records currently held in the movie database table.
+        Each field is shown in its own column.
+    </p>
 
-                        if (connection != null) {
-                            connection.close();
-                        }
-                    }
-                %>
-            </select>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Movie ID</th>
+                <th>Title</th>
+                <th>Director</th>
+                <th>Release Year</th>
+                <th>Genre</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
 
-            <br><br>
-
-            <input type="submit" value="Edit Selected Record">
-        </form>
-
-        <% if (!message.equals("")) { %>
-            <p class="message"><%= message %></p>
-        <% } %>
-
-        <p>
-            <a href="displayMovies.jsp">View All Movie Records</a>
-        </p>
-    </div>
+        <tbody>
+            <% for (String[] movie : movieRecords) { %>
+                <tr>
+                    <td><%= movie[0] %></td>
+                    <td><%= movie[1] %></td>
+                    <td><%= movie[2] %></td>
+                    <td><%= movie[3] %></td>
+                    <td><%= movie[4] %></td>
+                    <td><%= movie[5] %></td>
+                </tr>
+            <% } %>
+        </tbody>
+    </table>
 
 </body>
 </html>
