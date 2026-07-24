@@ -93,3 +93,178 @@ tr:nth-child(even) {
     border: 1px solid #cccccc;
     width: 260px;
 }
+
+/* =========================================================
+   Module 9 - Delete Movie Records
+   ========================================================= */
+
+.page-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.page-header {
+    margin-bottom: 25px;
+}
+
+.page-header h1 {
+    margin-bottom: 12px;
+}
+
+.module-label {
+    margin-bottom: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.data-description {
+    max-width: 900px;
+    line-height: 1.7;
+}
+
+.record-summary,
+.field-description,
+.delete-section {
+    margin-top: 28px;
+    padding: 22px;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+}
+
+.table-section {
+    margin-top: 25px;
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.movie-table caption {
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.movie-table th,
+.movie-table td {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+.movie-table th {
+    background-color: #263b5e;
+    color: white;
+}
+
+.movie-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.field-description dl {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 10px 20px;
+}
+
+.field-description dt {
+    font-weight: bold;
+}
+
+.field-description dd {
+    margin: 0;
+}
+
+.delete-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.delete-form label {
+    font-weight: bold;
+}
+
+.delete-form select {
+    min-width: 280px;
+    padding: 11px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+.delete-button {
+    padding: 11px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a62020;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #7d1717;
+}
+
+.delete-button:disabled {
+    background-color: #999999;
+    cursor: not-allowed;
+}
+
+.status-message {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.status-message.success {
+    background-color: #e4f6e8;
+    border: 1px solid #4b9659;
+}
+
+.status-message.error {
+    background-color: #fde7e7;
+    border: 1px solid #b54545;
+}
+
+.empty-message {
+    padding: 12px;
+    background-color: #fff4cf;
+    border-left: 5px solid #d29b00;
+}
+
+.page-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.page-navigation a {
+    display: inline-block;
+    padding: 11px 18px;
+    border-radius: 5px;
+    background-color: #263b5e;
+    color: white;
+    text-decoration: none;
+}
+
+.page-navigation a:hover {
+    text-decoration: underline;
+}

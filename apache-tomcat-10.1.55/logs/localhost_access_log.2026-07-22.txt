@@ -1,0 +1,6 @@
+127.0.0.1 - - [22/Jul/2026:22:53:26 -0500] "GET /Module5_6_Database_Project/deleteMovie.jsp HTTP/1.1" 404 777
+127.0.0.1 - - [22/Jul/2026:22:54:08 -0500] "GET /Module5_6_Database_Project/alexindex.jsp HTTP/1.1" 404 775
+127.0.0.1 - - [22/Jul/2026:22:55:28 -0500] "GET /Module5_6_Database_Project/alexindex.jsp HTTP/1.1" 404 775
+127.0.0.1 - - [22/Jul/2026:22:55:29 -0500] "GET /Module5_6_Database_Project/alexindex.jsp HTTP/1.1" 404 775
+127.0.0.1 - - [22/Jul/2026:22:56:30 -0500] "GET /Module5_6_7_8_Database_Project/alexindex.jsp HTTP/1.1" 404 744
+127.0.0.1 - - [22/Jul/2026:22:57:40 -0500] "GET /Module5_6_7_8_Database_Project/alexindex.jsp HTTP/1.1" 404 744

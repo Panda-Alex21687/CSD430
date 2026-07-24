@@ -1,0 +1,3 @@
+127.0.0.1 - - [24/Jul/2026:17:12:23 -0500] "GET /Module5_6_7_8_Database_Project/alexmoviedelete.jsp HTTP/1.1" 404 750
+127.0.0.1 - - [24/Jul/2026:17:12:46 -0500] "GET /Module5_6_7_8_Database_Project/alexMoviedelete.jsp HTTP/1.1" 200 13265
+127.0.0.1 - - [24/Jul/2026:17:12:46 -0500] "GET /Module5_6_7_8_Database_Project/alexstyle.css HTTP/1.1" 200 4225

@@ -177,5 +177,35 @@
         </tbody>
     </table>
 
+    <section style="
+        width: 80%;
+        margin: 25px auto;
+        padding: 20px;
+        border: 1px solid #cccccc;
+        border-radius: 6px;
+        background-color: #ffffff;">
+
+    <h2>Module 9 — Delete Movie Records</h2>
+
+    <p>
+        Display all movie records and select a movie ID
+        to permanently delete that record from the database.
+    </p>
+
+    <a href="alexMoviedelete.jsp.jsp"
+       style="
+       display: inline-block;
+       padding: 10px 16px;
+       border-radius: 4px;
+       background-color: #a51616;
+       color: white;
+       text-decoration: none;">
+
+        Open Delete Movie Records
+
+    </a>
+
+</section>
+
 </body>
 </html>
